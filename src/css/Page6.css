@@ -1,23 +1,25 @@
-header{
-    height: 40px;
-   background:chartreuse;
-   color: rgb(255, 0, 0);
-   line-height: 50px;
-}
-section{
-    height: calc(100%-70px)
-
-}
-footer{
+#header{
+    background-color:orange;
     height: 30px;
-    line-height: 30px;
-    font-size: 8pt;
-    color: white;
-    background: linear-gradient(90deg, red 0%, blue 100%);
-    text-align: center;
+    width: 100%;
+}
+#section{
+background-color:orchid;
+height: calc(100% - 60px);
+width: 100%;
+overflow: auto;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+gap: 20px;
+padding: 10px;
+}
+#footer{
+    background-color: aquamarine;
+    height: 30px;
+    width: 100%;
 }
 .logo{
-    font-size: 10pt;
+    font-size: 16pt;
     font-weight: bold;
     margin-left: 15px;
 }
